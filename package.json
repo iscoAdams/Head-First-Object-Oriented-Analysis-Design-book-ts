@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "ts-node-dev --respawn --transpile-only Chapter3/dogDoor-v1.0/dogDoorSimulator.ts"
   },
   "keywords": [],
   "author": "",
